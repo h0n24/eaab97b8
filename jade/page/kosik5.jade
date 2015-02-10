@@ -1,0 +1,102 @@
+.mg50
+.row(style="margin-bottom:1300px;")
+  .col-md-12
+    // Button trigger modal
+    button#button-to-click.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#myModal')
+      | Spustit demo
+
+// Modal
+#myModal.modal.fade(tabindex='-1', role='dialog', aria-labelledby='myModalLabel', aria-hidden='true')
+  .modal-dialog.modal-bigger
+    .modal-content
+      .modal-title Canadien super curve 27 Black Oval '13
+
+      div(role='tabpanel')
+        // Nav tabs
+        ul.nav.nav-tabs(role='tablist')
+          li.active(role='presentation')
+            a(href='#home', aria-controls='home', role='tab', data-toggle='tab') Ľavá (ľavá ruka nižšie)
+          li(role='presentation')
+            a(href='#profile', aria-controls='profile', role='tab', data-toggle='tab') Pravá (pravá ruka nižšie)
+        // Tab panes
+        .tab-content
+          #home.tab-pane.active(role='tabpanel')
+            .table-responsive
+              table.table.table-items.table-vertical-align.table-min-600
+                tr
+                  td 101 cm
+                  td Čierna
+                  td 
+                    .green Skladem > 5ks
+                  td Běžně 
+                    strike 95.50 €
+                  td 
+                    .basket-price 79.90 €
+                  td 
+                    input.form-basket-small.pull-left.mgrs.form-control(type='number', value='1')
+                    button.btn.btn-success(type='button', data-dismiss='modal') Koupit
+                tr
+                  td 101 cm
+                  td Čierna
+                  td
+                    .green Skladem > 5ks
+                  td Běžně 
+                    strike 95.50 €
+                  td 
+                    .basket-price 79.90 €
+                  td
+                    input.form-basket-small.pull-left.mgrs.form-control(type='number', value='1')
+                    button.btn.btn-success(type='button', data-dismiss='modal') Koupit
+                tr
+                  td 101 cm
+                  td Čierna
+                  td Nedostupné
+                  td Běžně 
+                    strike 95.50 €
+                  td 
+                    .basket-price 79.90 €
+                  td
+                    button.btn.btn-default(type='button', data-dismiss='modal') Hlídat dostupnost
+
+
+          #profile.tab-pane(role='tabpanel')
+            .table-responsive
+              table.table.table-items.table-vertical-align.table-min-600
+                tr
+                  td 101 cm
+                  td Čierna
+                  td 
+                    .green Skladem > 5ks
+                  td Běžně 
+                    strike 95.50 €
+                  td 
+                    .basket-price 79.90 €
+                  td 
+                    input.form-basket-small.pull-left.mgrs.form-control(type='number', value='1')
+                    button.btn.btn-success(type='button', data-dismiss='modal') Koupit
+                tr
+                  td 101 cm
+                  td Čierna
+                  td
+                    .green Skladem > 5ks
+                  td Běžně 
+                    strike 95.50 €
+                  td 
+                    .basket-price 79.90 €
+                  td
+                    input.form-basket-small.pull-left.mgrs.form-control(type='number', value='1')
+                    button.btn.btn-success(type='button', data-dismiss='modal') Koupit
+                tr
+                  td 101 cm
+                  td Čierna
+                  td Nedostupné
+                  td Běžně 
+                    strike 95.50 €
+                  td 
+                    .basket-price 79.90 €
+                  td
+                    button.btn.btn-default(type='button', data-dismiss='modal') Hlídat dostupnost
+
+
+// just for testing purposes
+.row(style="margin-bottom:1300px;")

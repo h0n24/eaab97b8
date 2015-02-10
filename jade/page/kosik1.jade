@@ -1,0 +1,122 @@
+.row
+  .col-md-12
+    .stepper
+      .step.step-1.active
+        .step-title Obsah košíku
+        .step-point
+      .step.step-2
+        .step-title Doprava a platba
+        .step-point
+      .step.step-3
+        .step-title Dodací údaje
+        .step-point
+      .step.step-4
+        .step-title Souhrn objednávky
+        .step-point
+      br(clear = "all")
+.row
+  .col-md-12
+    .boxed
+      .table-responsive
+        table.table.table-basket
+          tbody
+            tr
+              td 
+                img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGBAMAAACDAP+3AAAAG1BMVEX4+PiZmZmkpKTIyMiwsLDg4ODU1NS8vLzs7OwPahmsAAAAYElEQVRIiWNgGAWjYBSMggEHjIKCTapoLEyg7JaCwUIDzA4ajAzsAe1QFlbAFCDAyMCmpgZlYQUpDAJMDAyJCTAWNlDGAHQFm7IGlIUVaDAEqQLdYw5ljYJRMApGAU0BAP+xDAedZmCrAAAAAElFTkSuQmCCPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyODwvYj48YnIgLz4KPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyOTwvYj48YnIgLz4K')
+              td
+                .basket-title .X3M Shooter Twist Straight ´13
+                .basket-text 96cm Levá kulatá (levá ruka dole)
+              td 
+                .green Skladem
+              td
+                input.form-basket-small.form-control(type='number', value='1')
+              td Běžně 
+                strike 95.50 €
+              td 
+                .basket-price 79.90 €
+              td 
+                .basket-delete
+                  i.fa.fa-times
+            tr
+              td 
+                img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGBAMAAACDAP+3AAAAG1BMVEX4+PiZmZmkpKTIyMiwsLDg4ODU1NS8vLzs7OwPahmsAAAAYElEQVRIiWNgGAWjYBSMggEHjIKCTapoLEyg7JaCwUIDzA4ajAzsAe1QFlbAFCDAyMCmpgZlYQUpDAJMDAyJCTAWNlDGAHQFm7IGlIUVaDAEqQLdYw5ljYJRMApGAU0BAP+xDAedZmCrAAAAAElFTkSuQmCCPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyODwvYj48YnIgLz4KPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyOTwvYj48YnIgLz4K')
+              td
+                .basket-title .X3M Shooter Twist Straight ´13
+                .basket-text 96cm Levá kulatá (levá ruka dole)
+              td 
+                .green Skladem
+              td
+                input.form-basket-small.form-control(type='number', value='1')
+              td Běžně 
+                strike 95.50 €
+              td 
+                .basket-price 79.90 €
+              td 
+                .basket-delete
+                  i.fa.fa-times
+            tr.basket-highlight
+              td 
+                img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGBAMAAACDAP+3AAAAG1BMVEX4+PiZmZmkpKTIyMiwsLDg4ODU1NS8vLzs7OwPahmsAAAAYElEQVRIiWNgGAWjYBSMggEHjIKCTapoLEyg7JaCwUIDzA4ajAzsAe1QFlbAFCDAyMCmpgZlYQUpDAJMDAyJCTAWNlDGAHQFm7IGlIUVaDAEqQLdYw5ljYJRMApGAU0BAP+xDAedZmCrAAAAAElFTkSuQmCCPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyODwvYj48YnIgLz4KPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyOTwvYj48YnIgLz4K')
+              td.basket-bold
+                label
+                  input(type="radio", name="radio", value="option1")
+                  |  Zdarma Tričko 
+              td Velikost
+              td
+                .dropdown
+                  button#dropdownMenu1.form-basket-small.btn.btn-default.dropdown-toggle(type='button', data-toggle='dropdown', aria-expanded='true')
+                    | XL
+                    span.caret
+                  ul.dropdown-menu(role='menu', aria-labelledby='dropdownMenu1')
+                    li(role='presentation')
+                      a(role='menuitem', tabindex='-1', href='#') S
+                    li(role='presentation')
+                      a(role='menuitem', tabindex='-1', href='#') M
+                    li(role='presentation')
+                      a(role='menuitem', tabindex='-1', href='#') L
+                    li(role='presentation')
+                      a(role='menuitem', tabindex='-1', href='#') XL
+              td
+              td 
+                .basket-price 0 €
+              td 
+                .basket-question
+                  i.fa.fa-question-circle
+
+            tr.basket-highlight
+              td 
+                img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGBAMAAACDAP+3AAAAG1BMVEX4+PiZmZmkpKTIyMiwsLDg4ODU1NS8vLzs7OwPahmsAAAAYElEQVRIiWNgGAWjYBSMggEHjIKCTapoLEyg7JaCwUIDzA4ajAzsAe1QFlbAFCDAyMCmpgZlYQUpDAJMDAyJCTAWNlDGAHQFm7IGlIUVaDAEqQLdYw5ljYJRMApGAU0BAP+xDAedZmCrAAAAAElFTkSuQmCCPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyODwvYj48YnIgLz4KPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyOTwvYj48YnIgLz4K')
+              td.basket-bold
+                label
+                  input(type="radio", name="radio", value="option2")
+                  |  Zdarma Bidon 
+              td 
+              td
+              td
+              td 
+                .basket-price 0 €
+              td 
+                .basket-question
+                  i.fa.fa-question-circle
+
+
+.row.mg50
+  .col-md-6.col-xs-12.mg20
+    .pull-left
+      input.form-control.input-lg(type='text', placeholder='Slevový kód')
+  .col-md-6.col-xs-12.mg20
+    .pull-right
+      .total-price Celková cena: 
+        strong 180 €
+
+.row
+  .col-md-6
+    .pull-left
+      a.btn.btn-180.btn-lg.btn-default.btn-up(href = "index.html")
+        i.fa.fa-angle-left.pull-left
+        |Zpět
+  .col-md-6
+    .pull-right
+      a.btn.btn-180.btn-lg.btn-success.btn-up(href = "kosik2.html")
+        |Pokračovat
+        i.fa.fa-angle-right.pull-right

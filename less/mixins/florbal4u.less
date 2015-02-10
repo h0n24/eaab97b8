@@ -1,0 +1,37 @@
+.vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.font(@name: "PT Sans", @weight: 400) {
+  font-family: @name, sans-serif;
+  font-weight: @weight;
+}
+
+.placeholder-color(@color: #333) {
+  .form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color: @color !important;
+    opacity: 1;
+  }
+  .form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+     color: @color;
+     opacity: 1;
+  }
+  .form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+     color: @color;
+     opacity: 1;
+  }
+  .form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+     color: @color;
+  }
+}
+
+.transition-delay(@delay) {
+    -moz-transition-delay:    @ddelay;
+    -o-transition-delay:      @ddelay;
+    -webkit-transition-delay: @ddelay;
+    transition-delay:         @ddelay;
+}

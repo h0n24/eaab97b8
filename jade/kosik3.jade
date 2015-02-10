@@ -1,0 +1,13 @@
+doctype html
+html(lang="sk")
+  include ./layout/head.jade
+  body
+    .wrap-outer
+    .container
+      .row
+        .col-md-3.sidemenu
+          include ./layout/menu.jade
+        .col-md-9.wrap
+          include ./layout/header.jade
+          include ./page/kosik3.jade
+          include ./layout/footer.jade

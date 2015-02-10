@@ -1,0 +1,75 @@
+.row
+  .col-md-12
+    .stepper
+      .step.step-1.active
+        .step-title Obsah košíku
+        .step-point
+      .step.step-2.active
+        .step-title Doprava a platba
+        .step-point
+      .step.step-3.active
+        .step-title Dodací údaje
+        .step-point
+      .step.step-4
+        .step-title Souhrn objednávky
+        .step-point
+      br(clear = "all")
+.row
+  .col-md-12.mg50
+    .boxed.pd40.dodaci-udaje
+      .boxed-title Dodací údaje
+      .row
+        .col-md-3.domaci-udaje-text Jméno a příjmení
+        .col-md-9
+          input.form-control(type='text', value='JIRÁSKO Ondřej')
+      .row
+        .col-md-3.domaci-udaje-text Ulice
+        .col-md-5
+          input.form-control(type='text', value='Pod hvězdami')   
+        .col-md-4
+          .form-group
+            label.dodaci-input-label(for='exampleInputName2') č. p.
+            input#exampleInputName2.dodaci-input-small.form-control(type='text', value='175/2')
+      .row
+        .col-md-3.domaci-udaje-text Město
+        .col-md-9
+          input.form-control.active(type='text', placeholder='')
+      .row
+        .col-md-3.domaci-udaje-text PSČ
+        .col-md-3
+          input.form-control(type='text', placeholder='')
+        .col-md-6.domaci-udaje-margin
+          select#select.form-control
+            option Slovenská republika
+                option Česká republika
+      .row
+        .col-md-3.domaci-udaje-text Kontaktní email
+        .col-md-9
+          input.form-control(type='text', placeholder='Email', value='@')
+      .row
+        .col-md-3.domaci-udaje-text Telefon
+        .col-md-3.col-xs-4
+          input.form-control(type='text', placeholder='',value='+420')
+        .col-md-6.col-xs-8
+          input.form-control(type='text', placeholder='')
+
+.fakturacni-udaje
+  .row
+    .col-md-10.mg50.col-xs-8
+      .boxed-title.pd40 Fakturační údaje
+        br
+        small Vyplňte v případě, že chcete provést objednávku na firmu
+    .col-md-1.mg50.col-xs-2
+      a(href="#").basket-dropdown
+        .icon-expand
+
+.row
+  .col-md-12
+    .pull-left
+      a.btn.btn-180.btn-lg.btn-default.btn-up(href = "kosik2.html")
+        i.fa.fa-angle-left.pull-left
+        |Zpět
+    .pull-right
+      a.btn.btn-180.btn-lg.btn-success.btn-up(href = "kosik4.html")
+        |Pokračovat
+        i.fa.fa-angle-right.pull-right

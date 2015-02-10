@@ -1,0 +1,79 @@
+.row
+  .col-md-12
+    .stepper
+      .step.step-1.active
+        .step-title Obsah košíku
+        .step-point
+      .step.step-2.active
+        .step-title Doprava a platba
+        .step-point
+      .step.step-3
+        .step-title Dodací údaje
+        .step-point
+      .step.step-4
+        .step-title Souhrn objednávky
+        .step-point
+      br(clear = "all")
+.row
+  .col-md-12.mg50
+    .boxed
+      .row.pd40
+        .col-md-6
+          .boxed-title Zvolte dopravu
+          label.item-label-wrap
+            .item-label.active
+              input.pull-left(type="radio", name="radio", value="option2")
+              .pull-left.item-label-info Česká pošta 
+              .pull-left.item-label-price 0 €
+              .pull-left.item-label-help
+                .basket-question
+                  i.fa.fa-question-circle
+          label.item-label-wrap
+            .item-label
+              input.pull-left(type="radio", name="radio", value="option3")
+              .pull-left.item-label-info PPL
+              .pull-left.item-label-price 0 €
+              .pull-left.item-label-help
+
+        .col-md-6
+          .boxed-title Zvolte platbu
+          label.item-label-wrap
+            .item-label.active
+              input.pull-left(type="radio", name="radio2", value="option2")
+              .pull-left.item-label-info Dobírka 
+              .pull-left.item-label-price 0 €
+              .pull-left.item-label-help
+                .basket-question
+                  i.fa.fa-question-circle
+          label.item-label-wrap
+            .item-label
+              input.pull-left(type="radio", name="radio2", value="option3")
+              .pull-left.item-label-info Platba kartou online 
+              .pull-left.item-label-price 0 €
+              .pull-left.item-label-help
+
+          label.item-label-wrap
+            .item-label
+              input.pull-left(type="radio", name="radio2", value="option3")
+              .pull-left.item-label-info Převodem z účtu
+              .pull-left.item-label-price 0 €
+              .pull-left.item-label-help
+
+          label.item-label-wrap
+            .item-label
+              input.pull-left(type="radio", name="radio2", value="option3")
+              .pull-left.item-label-info Hotově na prodejně
+              .pull-left.item-label-price 0 €
+              .pull-left.item-label-help
+
+
+.row
+  .col-md-12
+    .pull-left
+      a.btn.btn-180.btn-lg.btn-default.btn-up(href = "kosik1.html")
+        i.fa.fa-angle-left.pull-left
+        |Zpět
+    .pull-right
+      a.btn.btn-180.btn-lg.btn-success.btn-up(href = "kosik3.html")
+        |Pokračovat
+        i.fa.fa-angle-right.pull-right

@@ -1,0 +1,56 @@
+
+//
+// Load core variables and mixins
+// --------------------------------------------------
+
+@import "variables.less";
+@import "mixins.less";
+
+//
+// Load theme changers & shop specific things
+// --------------------------------------------------
+
+@import "bootswatch.less";
+@import "florbal4u.less";
+
+.btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger, .btn-poradce {
+  text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+  .box-shadow(inset 0 -12px 10px -8px rgba(0,0,0,.08));
+  border: 1px solid rgba(0,0,0,.08);
+}
+
+.btn-default {
+  @border-color: #E6E6E6;
+  @btn-color: #78980B;
+  border-color: @border-color;
+  color: #78980B;
+  background-color: #F8F8F8;
+  &:hover {
+    border-color: darken(@border-color, 12%);
+    color: #666;
+    background-color: #f8f8f8;
+  }
+  &:active, &:focus {
+    color: #666;
+    background-color: darken(#F8F8F8, 12%);
+  }
+}
+
+.btn-poradce {
+  margin-top: 46px;
+  float: left;
+  font-family: Segoe Print,sans-serif;
+  font-weight: 700;
+  background-color: #292a2a;
+  background-image: linear-gradient(#4f5151,#474949 6%,#3f4141);
+  background-position: 0 -15px;
+  border-color: #242525;
+  color: #fff;
+  &:hover {
+    border-color: rgba(0,0,0,.08);
+    background-position: 0 0px;
+  }
+  &:active, &:focus {
+    border-color: rgba(0,0,0,.08);
+  }
+}

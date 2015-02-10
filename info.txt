@@ -1,0 +1,29 @@
+info
+
+Písma:
+myriadPro Semibold -> PT Sans 700 (Bold)
+MyriadPro Cond -> PT Sans 400
+Roboto Bold 700
+Roboto Regular 400
+Roboto Thin 100
+OpenSans Semibold 600
+OpenSans Light 300
+
+
+home
+jquery - rozklikávání menu
+
+
+překrytí barvou: 
+
+normal: #a6a6a6
+active / hover: #afcb08
+
+vyřešit problém s placeholder-color
+
+vyřešit javascriptem přetékající elementy
+
+
+
+user: m.fiala
+pass: omeleta

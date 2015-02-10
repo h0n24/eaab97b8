@@ -1,0 +1,89 @@
+.row
+  .col-md-12
+    .stepper
+      .step.step-1.active
+        .step-title Obsah košíku
+        .step-point
+      .step.step-2.active
+        .step-title Doprava a platba
+        .step-point
+      .step.step-3.active
+        .step-title Dodací údaje
+        .step-point
+      .step.step-4.active
+        .step-title Souhrn objednávky
+        .step-point
+      br(clear = "all")
+.row
+  .col-md-12.mg50
+    .boxed.padding
+      .row
+        .col-md-6
+          h4.text-uppercase
+            strong Osobní údaje
+          p JIRÁSKO Ondřej
+            br
+            | Pod hvězdami 175/2
+            br
+            | Praha, 555 55
+            br
+            | jirasko.ondrej@gmail.com
+            br
+            | +420 608 778 981
+
+        .col-md-6
+          h4.text-uppercase
+            strong Fakturační údaje
+  .col-md-12.mg50
+    .table-responsive
+      table.table.table-basket.table-basket-final
+        tbody
+          tr
+            td 
+              img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGBAMAAACDAP+3AAAAG1BMVEX4+PiZmZmkpKTIyMiwsLDg4ODU1NS8vLzs7OwPahmsAAAAYElEQVRIiWNgGAWjYBSMggEHjIKCTapoLEyg7JaCwUIDzA4ajAzsAe1QFlbAFCDAyMCmpgZlYQUpDAJMDAyJCTAWNlDGAHQFm7IGlIUVaDAEqQLdYw5ljYJRMApGAU0BAP+xDAedZmCrAAAAAElFTkSuQmCCPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyODwvYj48YnIgLz4KPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyOTwvYj48YnIgLz4K')
+            td
+              .basket-title .X3M Shooter Twist Straight ´13
+              .basket-text 96cm Levá kulatá (levá ruka dole)
+            td 
+              .green Skladem
+            td 1 ks
+            td 
+              .basket-price 79.90 €
+            td 
+              .basket-delete
+                i.fa.fa-times
+          tr
+            td 
+              img(src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAABGBAMAAACDAP+3AAAAG1BMVEX4+PiZmZmkpKTIyMiwsLDg4ODU1NS8vLzs7OwPahmsAAAAYElEQVRIiWNgGAWjYBSMggEHjIKCTapoLEyg7JaCwUIDzA4ajAzsAe1QFlbAFCDAyMCmpgZlYQUpDAJMDAyJCTAWNlDGAHQFm7IGlIUVaDAEqQLdYw5ljYJRMApGAU0BAP+xDAedZmCrAAAAAElFTkSuQmCCPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyODwvYj48YnIgLz4KPGJyIC8+CjxiPldhcm5pbmc8L2I+OiAgaW1hZ2Vjb2xvcmRlYWxsb2NhdGUoKSBleHBlY3RzIGV4YWN0bHkgMiBwYXJhbWV0ZXJzLCAxIGdpdmVuIGluIDxiPi9ob21lL2h0dHBkL3NhYmxhdHVyYS5pbmZvL3dlYi9iYW5uZXIucGhwPC9iPiBvbiBsaW5lIDxiPjEyOTwvYj48YnIgLz4K')
+            td
+              .basket-title .X3M Shooter Twist Straight ´13
+              .basket-text 96cm Levá kulatá (levá ruka dole)
+            td 
+              .green Skladem
+            td 1 ks
+            td 
+              .basket-price 79.90 €
+            td 
+              .basket-delete
+                i.fa.fa-times
+
+.row
+  .col-md-12
+    .pull-left.basket-final-mg-bottom
+      a.btn.btn-180.btn-lg.btn-default.btn-up(href = "kosik3.html")
+        i.fa.fa-angle-left.pull-left
+        |Zpět
+    .pull-right.basket-final-mg-top
+
+      .checkbox
+        label
+          input(type='checkbox', value='', checked)
+          | Akce, slevy a novinky speciálně na váš email.
+      .checkbox
+        label
+          input(type='checkbox', value='')
+          | Souhlasím s <a href="#">obchodními podmínkami</a>.
+
+      a.btn.btn-260.btn-lg.btn-success.btn-up(href = "kosik5.html")
+        | Dokončit objednávku
+        i.fa.fa-angle-right.pull-right
